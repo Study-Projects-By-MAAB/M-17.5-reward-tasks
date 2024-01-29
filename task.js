@@ -3,25 +3,25 @@ function getSeason(month) {
         case 3:
         case 4:
         case 5:
-            console.log('Spring')
+            console.log("Spring");
             break;
         case 6:
         case 7:
         case 8:
-            console.log('Summer')
-            break
+            console.log("Summer");
+            break;
         case 9:
         case 10:
         case 11:
-            console.log('Autumn')
+            console.log("Autumn");
             break;
         case 12:
         case 1:
         case 2:
-            console.log('Winter')
+            console.log("Winter");
             break;
         default:
-            console.log('Your input is invalid.')
+            console.log("Your input is invalid.");
     }
 }
-getSeason(5)
+getSeason(5);
